@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.homepage-container {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 30px 20px;
+}
+.homepage-header {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+}
+.homepage-header-3 {
+    display: flex;
+}
+.hp-header-3-item {
+    flex: 1;
+}
+.homepage-header-3a, .homepage-header-3b, .homepage-header-3c {
+    display: flex;
+    gap: 25px;
+}
+.homepage-header-3a {
+    margin-left: 10px;
+}
+.homepage-header-3b {
+    justify-content: center;
+}
+.homepage-header-3c {
+    justify-content: end;
+    margin-right: 10px;
+}
+
+
+/* hero */
+.homepage-slide {
+    max-width: 100%;
+    position: relative;
+    z-index: -1;
+}
+.homepage-slide-img {
+    width: 100%;
+    margin-top: -40px;
+}
+
+/* fashion */
+.homepage-fashion {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.homepage-fashion-3 {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 40px;
+}
+.hp-fashion-img {
+    margin-top: -50px;
+}
+.hp-fashion-description {
+    margin-top: 60px;
+}
+.hp-fashion-img img {
+    width: 350px;
+    height: 765px;
+}
+.hp-fs-description-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.hp-fs-description-grid-item1, .hp-fs-description-grid-item2 {
+    padding: 30px;
+}
+.hp-fs-description-grid-item1 {
+    line-height: 35px;
+    font-weight: 600;
+}
+.hp-fs-description-grid-item2 {
+    line-height: 25px;
+}
+
+/* sale */
+.homepage-sale {
+    max-width: 100%;
+}
+.homepage-sale-item {
+    display: flex;
+}
+.hp-sale-item-text {
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+.hp-sale-item-text p {
+    font-size: 35px;
+    font-weight: 800;
+}
+.hp-sale-item-text button {
+    padding: 10px 15px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+.hp-sale-item-text button a {
+    font-weight: 600;
+    color: black;
+    text-decoration: none;
+}
+.hp-sale-item-img img{
+    width: 100%;
+}
+
+/* news */
+.homepage-news {
+    max-width: 100%;
+}
+.homepage-news img {
+    width: 100%;
+}
+
+/* subcribe */
+.homepage-subcribe {
+    max-width: 100%;
+    height: 400px;
+    background-color: #EFEFEF;
+}
+.homepage-subcribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.homepage-subcribe-form-item {
+    width: max-content;
+    padding: 25px 50px;
+    background-color: white;
+    box-shadow: 5px 8px 8px #888888;
+    max-width: 100%;
+}
+.hp-subcribe-form-item1 , .hp-subcribe-form-item2 {
+    display: flex;
+}
+.hp-sub-form-item1-1 {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hp-sub-form-item1-3 {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hp-sub-form-item1-1 {
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+}
+.hp-sub-form-item1-2 {
+    width: 45%;
+}
+.hp-sub-form-item1-2 input {
+    width: 100%;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+.hp-sub-form-item1-3 a {
+    text-decoration: none;
+    padding: 9px 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 700;
+    color: black;
+}
+.hp-subcribe-form-item2 {
+    margin-top: 15px;
+    font-size: 14px;
+}
+.hp-subcribe-form-item2 a {
+    color: rgb(211, 101, 18);
+}
+
+/* categories */
+.homepage-categories {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.homepage-categories-form {
+    padding: 15px;
+    width: 60%;
+}
+.homepage-categories-form-item1 {
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px;
+}
+.homepage-categories-form-item2 {
+    padding-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 6%;
+}
+.homepage-categories-form-item2 a {
+    padding: 10px 50px;
+    border: 2px solid black;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* instagram */
+.homepage-instagram  {
+    max-width: 100%;
+    background-color: #EFEFEF;
+   
+}
+.homepage-instagram-item {
+    display: flex;
+    width: 100%;
+}
+.homepage-instagram-item1 , .homepage-instagram-item2 {
+    width: 50%;
+}
+.homepage-instagram-item1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+.hp-insyagram-arrow {
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* footer */
+.footer {
+    max-width: 75%;
+    border: 1px solid red;
+}
